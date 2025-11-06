@@ -1,0 +1,86 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/whb/code/108/lesson61/4. epollserver/EpollServer.hpp
+iostream
+-
+memory
+-
+sys/epoll.h
+-
+Socket.hpp
+/home/whb/code/108/lesson61/4. epollserver/Socket.hpp
+Epoller.hpp
+/home/whb/code/108/lesson61/4. epollserver/Epoller.hpp
+Log.hpp
+/home/whb/code/108/lesson61/4. epollserver/Log.hpp
+nocopy.hpp
+/home/whb/code/108/lesson61/4. epollserver/nocopy.hpp
+
+/home/whb/code/108/lesson61/4. epollserver/Epoller.hpp
+nocopy.hpp
+/home/whb/code/108/lesson61/4. epollserver/nocopy.hpp
+Log.hpp
+/home/whb/code/108/lesson61/4. epollserver/Log.hpp
+cerrno
+-
+cstring
+-
+sys/epoll.h
+-
+
+/home/whb/code/108/lesson61/4. epollserver/Log.hpp
+iostream
+-
+time.h
+-
+stdarg.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+
+/home/whb/code/108/lesson61/4. epollserver/Main.cc
+iostream
+-
+memory
+-
+EpollServer.hpp
+/home/whb/code/108/lesson61/4. epollserver/EpollServer.hpp
+
+/home/whb/code/108/lesson61/4. epollserver/Socket.hpp
+iostream
+-
+string
+-
+unistd.h
+-
+cstring
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+Log.hpp
+/home/whb/code/108/lesson61/4. epollserver/Log.hpp
+
+/home/whb/code/108/lesson61/4. epollserver/nocopy.hpp
+

@@ -1,0 +1,3 @@
+/home/whb/code/108/lesson61/4. epollserver/build/CMakeFiles/rebuild_cache.dir
+/home/whb/code/108/lesson61/4. epollserver/build/CMakeFiles/edit_cache.dir
+/home/whb/code/108/lesson61/4. epollserver/build/CMakeFiles/epoll_server.dir

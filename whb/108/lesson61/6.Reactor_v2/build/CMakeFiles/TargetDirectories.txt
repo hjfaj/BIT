@@ -1,0 +1,4 @@
+/home/whb/code/108/lesson61/5.Reactor/build/CMakeFiles/rebuild_cache.dir
+/home/whb/code/108/lesson61/5.Reactor/build/CMakeFiles/edit_cache.dir
+/home/whb/code/108/lesson61/5.Reactor/build/CMakeFiles/client.dir
+/home/whb/code/108/lesson61/5.Reactor/build/CMakeFiles/reactor_server.dir

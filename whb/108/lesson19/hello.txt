@@ -1,0 +1,27 @@
+[0m[01;32ma.out[0m
+hello.txt
+log.txt
+Makefile
+myshell.c
+mytest.c
+total 44
+-rwxrwxr-x 1 whb whb 18080 Nov  1 20:41 [0m[01;32ma.out[0m
+-rw-rw-r-- 1 whb whb    68 Nov  1 20:41 hello.txt
+-rw-rw-r-- 1 whb whb    24 Nov  1 20:13 log.txt
+-rw-rw-r-- 1 whb whb    73 Nov  1 19:09 Makefile
+-rw-rw-r-- 1 whb whb  4884 Nov  1 20:41 myshell.c
+-rw-rw-r-- 1 whb whb   931 Nov  1 20:34 mytest.c
+total 44
+-rwxrwxr-x 1 whb whb 18080 Nov  1 20:41 [0m[01;32ma.out[0m
+-rw-rw-r-- 1 whb whb   385 Nov  1 20:42 hello.txt
+-rw-rw-r-- 1 whb whb    24 Nov  1 20:13 log.txt
+-rw-rw-r-- 1 whb whb    73 Nov  1 19:09 Makefile
+-rw-rw-r-- 1 whb whb  4884 Nov  1 20:41 myshell.c
+-rw-rw-r-- 1 whb whb   931 Nov  1 20:34 mytest.c
+total 44
+-rwxrwxr-x 1 whb whb 18080 Nov  1 20:41 [0m[01;32ma.out[0m
+-rw-rw-r-- 1 whb whb   702 Nov  1 20:43 hello.txt
+-rw-rw-r-- 1 whb whb    24 Nov  1 20:13 log.txt
+-rw-rw-r-- 1 whb whb    73 Nov  1 19:09 Makefile
+-rw-rw-r-- 1 whb whb  4884 Nov  1 20:41 myshell.c
+-rw-rw-r-- 1 whb whb   931 Nov  1 20:34 mytest.c

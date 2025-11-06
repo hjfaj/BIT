@@ -1,0 +1,1000 @@
+   11  ll
+   12  cd lesson42/
+   13  ll
+   14  clear
+   15  ./udpServer 8080
+   16  ls
+   17  clear
+   18  make
+   19  ls
+   20  clear
+   21  make clean
+   22  clear
+   23  ll
+   24  mkae
+   25  make
+   26  clear
+   27  ./udpServer 8080
+   28  ls
+   29  clear
+   30  ll
+   31  sz udpClient
+   32  ls
+   33  clear
+   34  ll
+   35  clear
+   36  ./udpServer 808
+   37  ./udpServer 8080
+   38  cd "106/106-code-blackboard-writing/lesson42"
+   39  clear
+   40  ll
+   41  cat < fifo
+   42  clear
+   43  cat < fifo 
+   44  clear
+   45  ls
+   46  clear
+   47  ./udp 127.0.0.1 8080 > fifo 
+   48  ./udpClient 127.0.0.1 8080 > fifo 
+   49  ls
+   50  clear
+   51  ll
+   52  clear
+   53  ./udpClient 127.0.0.1 8080 > fifo
+   54  ls
+   55  clear
+   56  ll
+   57  cd 106
+   58  ls
+   59  clear
+   60  ll
+   61  cd 106-code-blackboard-writing/
+   62  ll
+   63  tree lesson41/
+   64  cp lesson41 lesson42 -rf
+   65  ls
+   66  clear
+   67  ls
+   68  cd lesson42/
+   69  ll
+   70  ls
+   71  cler
+   72  ./udpServer 
+   73  ./udpServer 8080
+   74  clear
+   75  netstat -nupa
+   76  ls
+   77  clear
+   78  ./udpClient 
+   79  ./udpClient 127.0.0.1 8080
+   80  man 2 signal
+   81  ./udpClient 127.0.0.1 8080
+   82  ls
+   83  clear
+   84  man popen
+   85  ls
+   86  clear
+   87  make
+   88  ls
+   89  clear
+   90  ./udpClient
+   91  ./udpClient 127.0.0.1 8080
+   92  clear
+   93  ./udpClient 127.0.0.1 8080
+   94  make clean
+   95  make
+   96  ./udpClient 127.0.0.1 8080
+   97  make
+   98  la
+   99  xlear
+  100  clear
+  101  rm udpClient
+  102  make
+  103  ./udpClient 127.0.0.1 8080
+  104  clear
+  105  make clearn
+  106  clear
+  107  ls
+  108  ./udpClient 127.0.0.1 8080
+  109  clear
+  110  ./udpClient 127.0.0.1 8080
+  111  ls
+  112  clar
+  113  clear
+  114  ll
+  115  rz udpClient
+  116  ps axj | grep sshd
+  117  clear
+  118  ll
+  119  sz udpClient
+  120  clear
+  121  ll
+  122  ./udpServer 8080
+  123  ls
+  124  clear
+  125  ll
+  126  make clean
+  127  ll
+  128  make clean
+  129  ll
+  130  ls
+  131  clear
+  132  ll
+  133  rm hdm.txt 
+  134  rm XXXX.txt 
+  135  ll
+  136  rm udpClient.0 
+  137  ll
+  138  ls
+  139  clear
+  140  ll
+  141  make
+  142  make clean
+  143  make
+  144  ls
+  145  clear
+  146  ll
+  147  clear
+  148  ll
+  149  mkfifo
+  150  mkfifo fifo
+  151  ll
+  152  clear
+  153  ll
+  154  ./udpClient > fifo
+  155  ./udpClient 127.0.0.1 8080 > fifo
+  156  clear
+  157  cat < fifo
+  158  clear
+  159  cat < fifo
+  160  ls
+  161  mysql -uroot -p
+  162  cd "107/lesson27"
+  163  ps ajx | grep mysignal
+  164  kill -2 6950
+  165  kill -l
+  166  ps ajx |grep mysignal
+  167  kill -9 7827
+  168  ps ajx |grep mysignal
+  169  kill -9 8356
+  170  man signal
+  171  ls
+  172  clear
+  173  kill -2 12772
+  174  kill -3 12772
+  175  kill -4 12772
+  176  kill -5 12772
+  177  mysql --version
+  178  clear
+  179  ls
+  180  cd test
+  181  ls
+  182  clear
+  183  ll
+  184  touch test.cc
+  185  ls
+  186  vim test.cc
+  187  g++ test.cc
+  188  g++ test.cc -lmysqlclient
+  189  g++ test.cc -L/user/lib64/mysql -lmysqlclient
+  190  g++ test.cc -L/usr/lib64/mysql -lmysqlclient
+  191  ls
+  192  clear
+  193  ldd a.out
+  194  ls
+  195  clear
+  196  ./a.out 
+  197  g++ test.cc -L/usr/lib64/mysql -lmysqlclient
+  198  ldd a.out
+  199  ls
+  200  clear
+  201  ./a.out 
+  202  rm a.out 
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd 107/
+  207  ll
+  208  clear
+  209  ls
+  210  mkdir lesson27
+  211  ll
+  212  cd lesson27/
+  213  ls
+  214  clear
+  215  ll
+  216  ls
+  217  cd ../lesson26/
+  218  lls
+  219  ls
+  220  vim mysignal.cc 
+  221  man sigpending
+  222  ls
+  223  cd ../lesson27/
+  224  ll
+  225  clear
+  226  ll
+  227  make
+  228  ls
+  229  clear
+  230  ./mysignal 
+  231  make
+  232  ls
+  233  clear
+  234  ./mysignal 
+  235  clear
+  236  make
+  237  ls
+  238  ./mysignal 
+  239  ls
+  240  clear
+  241  make clean
+  242  make
+  243  ls
+  244  clear
+  245  ./mysignal 
+  246  make clean
+  247  clear
+  248  make
+  249  ls
+  250  ./mysignal 
+  251  ls
+  252  clear
+  253  make clean
+  254  make
+  255  ./mysignal 
+  256  clear
+  257  ps ajx| grep systemd
+  258  man sigaction
+  259  ls
+  260  make
+  261  ./mysignal 
+  262  man sigaction
+  263  ls
+  264  clear
+  265  make
+  266  ./mysignal 
+  267  make clean
+  268  make
+  269  ls
+  270  ./mysignal 
+  271  ls
+  272  clear
+  273  make
+  274  make clean;make
+  275  ./mysignal 
+  276  clear
+  277  make
+  278  ls
+  279  clear
+  280  ls
+  281  make clean;make
+  282  clear
+  283  ./mysignal 
+  284  cd "/var/lib/mysql/104_105_db"
+  285  vim /etc/my.cnf
+  286  clear
+  287  ps ajx|grep mysql
+  288  mysql -uroot -p
+  289  mysql -uroot -p
+  290  su 
+  291  su -
+  292  ls
+  293  clear
+  294  systemctl start mysqld 
+  295  mysql -uroot -p
+  296  systemctl start mysqld 
+  297  su -
+  298  mysql -uroot -p
+  299  clear
+  300  mysql -uroot -p
+  301  clear
+  302  mysql -uroot -p
+  303  system clear;
+  304  clear;
+  305  mysql -uroot -p
+  306  ll
+  307  clear
+  308  ls
+  309  ll
+  310  cd 107/
+  311  ll
+  312  clear
+  313  ll
+  314  mkdir lesson28
+  315  ls
+  316  cd lesson28/
+  317  ls
+  318  clear
+  319  ll
+  320  make
+  321  ls
+  322  ./mysignal 
+  323  man gcc
+  324  man 7 gcc
+  325  man gcc
+  326  gcc --version
+  327  man gcc
+  328  ls
+  329  clear
+  330  make
+  331  make clean
+  332  make
+  333  ls
+  334  ./mysignal 
+  335  make
+  336  make clean;make
+  337  .//mysignal 
+  338  make clean;make
+  339  ls
+  340  clear
+  341  ./mysignal 
+  342  make clean;make
+  343  ./mysignal 
+  344  make clean;make
+  345  ls
+  346  clear
+  347  ll
+  348  ./mysignal 
+  349  make clean
+  350  make
+  351  ./m/
+  352  ./mysignal 
+  353  make clean
+  354  make
+  355  ls
+  356  clear
+  357  ./mysignal 
+  358  readelf -S mysignal
+  359  clear
+  360  objdump -S mysignal
+  361  qls
+  362  clear
+  363  man fork
+  364  man getpid
+  365  ls
+  366  clear
+  367  make clean
+  368  make
+  369  ls
+  370  clear
+  371  make
+  372  make clena
+  373  make clean
+  374  make
+  375  ls
+  376  clear
+  377  ./mysignal 
+  378  kill -l
+  379  man waitpid
+  380  ls
+  381  clear
+  382  make clean;make
+  383  ls
+  384  clear
+  385  ./mysignal 
+  386  make 
+  387  ls
+  388  clear
+  389  ./mysignal 
+  390  clear
+  391  make clean;make
+  392  ./mysignal 
+  393  ls
+  394  clear
+  395  make clean
+  396  make
+  397  ls
+  398  ./mysignal 
+  399  clear
+  400  make
+  401  ls
+  402  ./mysignal 
+  403  ls
+  404  clear
+  405  make
+  406  ls
+  407  clear
+  408  ll
+  409  ./mysignal 
+  410  cd "107/lesson28"
+  411  ps axj | head -1;
+  412  ps axj | head -1 && psa axj | grep mysignal
+  413  ps axj | head -1 && ps axj | grep mysignal
+  414  while :; do ps axj | head -1 && ps axj | grep mysignal; echo "#######################"; sleep 1; done
+  415  clear
+  416  while :; do ps axj | head -1 && ps axj | grep mysignal; echo "#######################"; sleep 1; done
+  417  clear
+  418  while :; do ps axj | head -1 && ps axj | grep mysignal; echo "#######################"; sleep 1; done
+  419  clear
+  420  ps -aL | grep mysignal
+  421  ps -aL | head -1 && ps -aL | grep mysignal
+  422  cd 107/
+  423  ls
+  424  clear
+  425  ll
+  426  mkdir lesson29
+  427  ll
+  428  cd lesson29/
+  429  ll
+  430  clear
+  431  ll
+  432  touch test.c
+  433  stat test.c
+  434  ls
+  435  clear
+  436  ll
+  437  make
+  438  ls
+  439  ./mythread 
+  440  make
+  441  clear
+  442  ls
+  443  ./mythread 
+  444  kill -l
+  445  make
+  446  clear
+  447  ls
+  448  ./mythread 
+  449  make clnea
+  450  make clean
+  451  make
+  452  ls
+  453  clear
+  454  ./mythread 
+  455  ls
+  456  clear
+  457  ll
+  458  make clean
+  459  ll
+  460  git add .
+  461  git commit -m "线程概念与多级页表done"
+  462  git push
+  463  git pull
+  464  git push
+  465  cd "107/lesson29"
+  466  ps -aL | grep mythread
+  467  ps -aL | head -1 && ps -aL | grep mythread
+  468  while :; do ps -aL | head -1 && ps -aL | grep mythread; echo "##########################"; sleep 1; done
+  469  clear
+  470  while :; do ps -aL | head -1 && ps -aL | grep mythread; echo "##########################"; sleep 1; done
+  471  ls
+  472  clear
+  473  mysql -uroot -p
+  474  clear
+  475  su -
+  476  ls /var/lib/mysql
+  477  su -
+  478  ll
+  479  clear
+  480  ll
+  481  ls
+  482  lear
+  483  clear
+  484  mysql -uroot -p
+  485  clear
+  486  cd "106/106-code-blackboard-writing/lesson43/2.tcpServer"
+  487  cd "/home/whb/106/106-code-blackboard-writing/lesson43/2.tcpServer"
+  488  netstat -nltp
+  489  clear
+  490  netstat -nltp
+  491  netstat -nlap
+  492  netstat -ntap
+  493  cd "/home/whb/106/106-code-blackboard-writing/lesson43/2.tcpServer"
+  494  ls
+  495  clear
+  496  netstat -altp
+  497  sudo netstat -altp
+  498  sudo netstat -anltp
+  499  sudo netstat -nltp
+  500  sudo netstat -ltp
+  501  sudo netstat -nltp
+  502  man connect
+  503  man inet_addr
+  504  man connect
+  505  ls
+  506  clear
+  507  make 
+  508  make
+  509  ls
+  510  clear
+  511  make clean
+  512  make
+  513  ls
+  514  clear
+  515  ./tcpserver 
+  516  ./tcpserver 8080
+  517  cd "/home/whb/106/106-code-blackboard-writing/lesson43/2.tcpServer"
+  518  ls
+  519  clear
+  520  ./tccp
+  521  ./tcpclient 127.0.0.1 8080
+  522  find ~ -name *.c
+  523  pwd
+  524  find . -name *.c
+  525  find . -name *.c*
+  526  find . -name *.c* -name *akefile
+  527  sudo find . -name *.c* -name *akefile
+  528  sudo find . -name *.c*
+  529  sudo find . -name *
+  530  sudo find . -name *.c* | less
+  531  sudo find . -name *.c*
+  532  sudo find . -name *.c* | head -10
+  533  clear
+  534  ll
+  535  cd 106
+  536  ls
+  537  clear
+  538  cd 106-code-blackboard-writing/
+  539  ll
+  540  ls
+  541  mkdir lesson43
+  542  cd lesson43/
+  543  ls
+  544  clear
+  545  s
+  546  ls
+  547  cd ..
+  548  ls
+  549  ll
+  550  cd lesson41/
+  551  ls
+  552  ll
+  553  vim udpServer.cc 
+  554  cd ..
+  555  ls
+  556  cp lesson42/*.hpp lesson43/
+  557  cp lesson42/*.cc lesson43/
+  558  cp lesson42/makefile lesson43/
+  559  ll
+  560  ls
+  561  clear
+  562  cd lesson43/
+  563  ls
+  564  mkae
+  565  make
+  566  ls
+  567  clear
+  568  ll
+  569  make clean
+  570  make
+  571  ls
+  572  clear
+  573  ll
+  574  make clean
+  575  ll
+  576  man inet_aton
+  577  man inet_pton
+  578  ls
+  579  clear
+  580  ll
+  581  make
+  582  ls
+  583  clear
+  584  ./udpServer 8080
+  585  ls
+  586  clear
+  587  ll
+  588  mkdir window_linux
+  589  ll
+  590  mv *.cc win
+  591  mv *.cc window_linux/
+  592  mv *.hpp window_linux/
+  593  mv makefile window_linux/
+  594  man socket
+  595  ls
+  596  clear
+  597  ll
+  598  cd ..
+  599  ls
+  600  clear
+  601  grep -i "error" /var/log/messages
+  602  sudo grep -i "error" /var/log/messages
+  603  su -
+  604  cd "108/lesson4"
+  605  ls
+  606  clear
+  607  ll
+  608  whoami
+  609  ls
+  610  clear
+  611  ll
+  612  mkdir 108
+  613  ll
+  614  clear
+  615  ll
+  616  cd 108/
+  617  ls
+  618  clear
+  619  ll
+  620  git clone https://gitee.com/whb-helloworld/108.git
+  621  ls
+  622  clear
+  623  ll
+  624  cd ..
+  625  ls
+  626  rm 108 -rf
+  627  git clone https://gitee.com/whb-helloworld/108.git
+  628  ls
+  629  cd 108/
+  630  ls
+  631  clear
+  632  ll
+  633  mkdir lesson4
+  634  ll
+  635  cd lesson4/
+  636  ls
+  637  clear
+  638  ll
+  639  ls
+  640  clear
+  641  ll
+  642  date
+  643  date +%Y
+  644  date +%Y-%d
+  645  date +%Y-%m
+  646  date +%Y:%m
+  647  date +%Y+%m
+  648  date +%Y_%m
+  649  date +%Y-%m
+  650  date +%Y-%m-%d
+  651  date +%Y-%m-%d_%H
+  652  date +%Y-%m-%d_%H:%M:
+  653  date +%Y-%m-%d_%H:%M:%S
+  654  date +%Y-%m-%d %H:%M:%S
+  655  date +%Y-%m-%d_%H:%M:%S
+  656  clear
+  657  date +%s
+  658  date -d @1683941349
+  659  date +%Y-%m-%d_%H:%M:%S -d @1683941349
+  660  date +%Y-%m-%d_%H:%M:%S -d @16839413
+  661  date +%Y-%m-%d_%H:%M:%S -d @1683941369
+  662  date +%Y-%m-%d_%H:%M:%S -d @16839413
+  663  date +%Y-%m-%d_%H:%M:%S -d @0
+  664  date +%Y-%m-%d_%H:%M:%S -d @1
+  665  date +%Y-%m-%d_%H:%M:%S -d @2
+  666  date +%Y-%m-%d_%H:%M:%S -d @3
+  667  date +%Y-%m-%d_%H:%M:%S -d @1683941369
+  668  date -d @1683941349
+  669  system clear
+  670  clear;
+  671  cal
+  672  cal 
+  673  cal -3
+  674  cal -2023
+  675  cal 2023
+  676  cal 2050
+  677  cal 1949
+  678  system clear
+  679  cleare
+  680  clear
+  681  ll
+  682  find ~ -name test.c
+  683  find ~ -name *
+  684  find ~ -name *.c
+  685  find ~ -name *.cc
+  686  find ~ -name *.h
+  687  find ~ -name *.hpp
+  688  ls
+  689  clear
+  690  ll
+  691  find /usr/bin/ -name ls
+  692  find /usr/bin/ -name pwd
+  693  find /usr/ -name pwd
+  694  pwd
+  695  man find
+  696  find /usr/bin/ -na
+  697  find /home/whb/ -name test.c
+  698  clear
+  699  which
+  700  which ls
+  701  which pwd
+  702  clear
+  703  whereis
+  704  whereis ls
+  705  whereis pwd
+  706  whereis stdio.h
+  707  whereis libc.so
+  708  clear
+  709  whereis stdlib.h
+  710  whereis iostream
+  711  whereis fstream
+  712  whereis string.hl
+  713  whereis string.h
+  714  ls
+  715  clear
+  716  ll
+  717  ls
+  718  clear
+  719  ll
+  720  cnt=0; while [ $cnt -le 100000 ]; do "hello bit $cnt"; let cnt++; done
+  721  cnt=0; while [ $cnt -le 100000 ]; do echo "hello bit $cnt"; let cnt++; done
+  722  cnt=0; while [ $cnt -le 100000 ]; do echo "hello bit $cnt"; let cnt++; done > log.txt
+  723  ll
+  724  clear
+  725  ll
+  726  du log.txt 
+  727  du -k log.txt 
+  728  du -M log.txt 
+  729  du -,m log.txt 
+  730  du -m log.txt 
+  731  ll
+  732  head log.txt 
+  733  tail log.txt 
+  734  less log.txt 
+  735  ls
+  736  clear
+  737  ll
+  738  grep '9' log.txt
+  739  grep '999' log.txt
+  740  grep '99999' log.txt
+  741  grep '9999' log.txt
+  742  clear
+  743  ll
+  744  >log.txt 
+  745  ll
+  746  nano log.txt
+  747  ls
+  748  cat log.txt 
+  749  grep 'world' log.txt
+  750  grep -v 'world' log.txt
+  751  grep -n 'world' log.txt
+  752  grep -n '' log.txt
+  753  grep -nv '' log.txt
+  754  grep -nv 'world' log.txt
+  755  grep  'bit' log.txt
+  756  grep -i 'bit' log.txt
+  757  grep -in 'bit' log.txt
+  758  grep -i -nn 'bit' log.txt
+  759  grep -i -n 'bit' log.txt
+  760  clear
+  761  ls
+  762  cat log.txt 
+  763  cat log.txt | grep bit
+  764  cat log.txt | grep -n bit
+  765  cat log.txt 
+  766  cat < log.txt
+  767  cat log.txt  | cat
+  768  cat log.txt | grep -n bit
+  769  clear
+  770  find ~ -name test.c
+  771  grep -n 'int main()' /home/whb/106/106-code-blackboard-writing/lesson7/test.c
+  772  grep -n 'int main()' /home/whb/106/106-code-blackboard-writing/lesson7/test.c /home/whb/107/test.c
+  773  grep -n 'int main()' /home/whb/106/106-code-blackboard-writing/lesson7/test.c /home/whb/107/test.c /home/whb/107/lesson9/test.c
+  774  grep -n 'int main()' /homw/whb
+  775  grep -Rn 'int main()' /homw/whb
+  776  grep -n 'int main()' /home/whb
+  777  grep -Rn 'int main()' /home/whb
+  778  ls
+  779  clear
+  780  ll
+  781  ps ajx 
+  782  ps ajx | grep sshd
+  783  clear
+  784  ls
+  785  ll
+  786  ls
+  787  clear
+  788  ll
+  789  mkdir temp
+  790  ll
+  791  cd temp/
+  792  ll
+  793  cd ..
+  794  ls
+  795  clear
+  796  l
+  797  ll
+  798  rm temp/ -rf
+  799  mkdir -p d1/d2/d3
+  800  ll
+  801  cd d1/
+  802  ls
+  803  touch file1.txt file2.txt file3.txt
+  804  ll
+  805  cd di
+  806  cd d2/
+  807  ls
+  808  touch file4.txt file5.txt
+  809  ll
+  810  echo 'helloworld' > file4.txt 
+  811  ll
+  812  cd ..
+  813  ls
+  814  ll
+  815  cd ..
+  816  ls
+  817  clear
+  818  ll
+  819  tree d1/
+  820  ls
+  821  pwd
+  822  ls ..
+  823  ls
+  824  clear
+  825  ll
+  826  zip d1.zip d1
+  827  ll
+  828  mv d1.zip ..
+  829  ll
+  830  cd ..
+  831  ll
+  832  unzip d1.zip 
+  833  ls
+  834  ll
+  835  tree d1
+  836  rm d1.*
+  837  ls
+  838  clear
+  839  ll
+  840  rm di -rf
+  841  ll
+  842  rm d1 -rf
+  843  ll
+  844  cd lesson4/
+  845  ll
+  846  zip -r d1.zip d1
+  847  ll
+  848  mv d1.zip ..
+  849  cd ..
+  850  ls
+  851  clear
+  852  ll
+  853  unzip d1.zip 
+  854  ll
+  855  tree d1
+  856  cat d1/d2/file4.txt 
+  857  rm -rf d1 d1.zip 
+  858  ll
+  859  cd lesson4/
+  860  ls
+  861  clear
+  862  ll
+  863  zip -r d1.zip d1 log.txt 
+  864  ls
+  865  rm -rf d1 log.txt 
+  866  ll
+  867  unzip d1.zip 
+  868  ll
+  869  tree d1
+  870  cat log.txt 
+  871  ls
+  872  clear
+  873  ll
+  874  rm d1.zip 
+  875  ll
+  876  ls
+  877  clear
+  878  ll
+  879  zip -r d1.zip d1 log.txt 
+  880  ll
+  881  clear
+  882  ll
+  883  cd ..
+  884  ls
+  885  cd lesson4/
+  886  ls
+  887  clear
+  888  ll
+  889  mkdir test
+  890  ll
+  891  unzip d1.zip -d test
+  892  ls
+  893  tree test
+  894  clear
+  895  ll
+  896  zip
+  897  zip --help
+  898  system clear
+  899  clear;
+  900  tar
+  901  tar --version
+  902  su -
+  903  whoami
+  904  ls
+  905  clear
+  906  ll
+  907  rm d1.zip 
+  908  ls
+  909  clear
+  910  ll
+  911  rm -rf test
+  912  ll
+  913  tree .
+  914  clear
+  915  ll
+  916  tar czf code.tgz d1 log.txt
+  917  ll
+  918  tar tzf code.tgz d1 log.txt
+  919  ll
+  920  ls
+  921  clear
+  922  ll
+  923  rm d1 log.txt -rf
+  924  ll
+  925  tar xzf code.tgz
+  926  ll
+  927  tree d1
+  928  ls
+  929  clear
+  930  ll
+  931  cd ..
+  932  ls
+  933  ll
+  934  cd lesson4/
+  935  ll
+  936  clear
+  937  ll
+  938  tar xzf code.tgz -C ..
+  939  ll
+  940  cd ..
+  941  ll
+  942  tree d1
+  943  cat l
+  944  cat log.txt 
+  945  clear
+  946  ll
+  947  rm d1 log.txt  -rf
+  948  ll
+  949  cd lesson4/
+  950  ll
+  951  clear;
+  952  clear
+  953  ll
+  954  clear
+  955  bc
+  956  echo "1+2+3+4+5+6"
+  957  echo "1+2+3+4+5+6" | bc
+  958  echo '12+45*89-90/89+345'|bc
+  959  clear;
+  960  uname
+  961  uname -a
+  962  uname -r
+  963  free
+  964  free -k
+  965  free -m
+  966  free -g
+  967  free -k
+  968  clear
+  969  df -h
+  970  clear
+  971  lscpu 
+  972  lsmem
+  973  clear
+  974  d
+  975  clear
+  976  a
+  977  clear
+  978  find ~ -name test.c
+  979  clear;
+  980  find ~ -name test.c
+  981  clear
+  982  ls
+  983  clear
+  984  nona --version 
+  985  nano --version 
+  986  yum install -y nano
+  987  sudo yum install -y nano
+  988  system clear
+  989  clear
+  990  ls
+  991  touch test.c
+  992  ls
+  993  nano test.c
+  994  cat test.c
+  995  gcc test.c
+  996  ls
+  997  ll
+  998  ./a.out 
+  999  clear
+ 1000  ll
+ 1001  cd 108/
+ 1002  ll
+ 1003  clear
+ 1004  ll
+ 1005  cd lesson4/
+ 1006  ll
+ 1007  clear
+ 1008  history 
+ 1009  history  | head -10
+ 1010  history > cmd.txt

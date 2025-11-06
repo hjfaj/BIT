@@ -1,0 +1,29 @@
+apple:苹果...
+banana:香蕉...
+red:红色...
+yellow:黄色...
+the: 这
+be: 是
+to: 朝向/给/对
+and: 和
+I: 我
+in: 在...里
+that: 那个
+have: 有
+will: 将
+for: 为了
+but: 但是
+as: 像...一样
+what: 什么
+so: 因此
+he: 他
+her: 她
+his: 他的
+they: 他们
+we: 我们
+their: 他们的
+his: 它的
+with: 和...一起
+she: 她
+he: 他（宾格）
+it: 它
