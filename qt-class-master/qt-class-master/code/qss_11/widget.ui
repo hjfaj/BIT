@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>220</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+	font-size: 20px;
+}
+
+QCheckBox::indicator {
+	width: 20px;
+	height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/checkbox-unchecked.png);
+}
+
+QCheckBox::indicator:unchecked:hover {
+	image: url(:/checkbox-unchecked_hover.png);
+}
+
+QCheckBox::indicator:unchecked:pressed {
+	image: url(:/checkbox-checked_pressed.png);
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/checkbox-checked.png);
+}
+
+QCheckBox::indicator:checked:hover {
+	image: url(:/checkbox-checked_hover.png);
+}
+
+QCheckBox::indicator:checked:pressed {
+	
+	image: url(:/checkbox-unchecked_pressed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>复选框</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMenuBar {
+	background-color: #f0f0f0;
+	spacing: 5px;
+}
+
+QMenuBar::item {
+	border-radius: 10px;
+	padding: 3px 10px;
+	background-color: rgb(255, 250, 210);
+}
+
+QMenuBar::item:selected {
+	background-color: rgb(170, 85, 0);
+}
+
+QMenu:item {
+	border: 2px solid transparent;
+	padding: 2px 10px;
+}
+
+
+QMenu::item:selected {
+	border: 2px solid red;
+}
+
+QMenu::separator {
+	height: 2px;
+	background-color: green;
+	margin: 0 5px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单</string>
+    </property>
+    <addaction name="action111"/>
+    <addaction name="action222"/>
+    <addaction name="action333"/>
+    <addaction name="separator"/>
+    <addaction name="action444"/>
+    <addaction name="action555"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>菜单2</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>菜单3</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action111">
+   <property name="text">
+    <string>111</string>
+   </property>
+  </action>
+  <action name="action222">
+   <property name="text">
+    <string>222</string>
+   </property>
+  </action>
+  <action name="action333">
+   <property name="text">
+    <string>333</string>
+   </property>
+  </action>
+  <action name="action444">
+   <property name="text">
+    <string>444</string>
+   </property>
+  </action>
+  <action name="action555">
+   <property name="text">
+    <string>555</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
