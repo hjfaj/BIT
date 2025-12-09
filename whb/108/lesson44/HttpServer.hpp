@@ -54,7 +54,7 @@ public:
     void Parse()
     {
         std::stringstream ss(req_header[0]);
-        ss >> method >> url >> http_version;
+        ss >> method >> url >> http_version; //method→http请求方式
         file_path = wwwroot; // ./wwwroot
         if(url == "/" || url == "/index.html") {
             file_path += "/";
@@ -90,7 +90,7 @@ public:
     std::string http_version;
     std::string file_path; // ./wwwroot/a/b/c.html 2.png
 
-    std::string suffix;
+    std::string suffix; //记录文件后缀
 };
 
 class HttpServer
